@@ -41,6 +41,7 @@
 		8CD230BA159DA6DC00603D19 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B4159DA6DC00603D19 /* gzread.c */; };
 		8CD230BB159DA6DC00603D19 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B5159DA6DC00603D19 /* gzwrite.c */; };
 		8CD230BC159DA6DC00603D19 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B6159DA6DC00603D19 /* zutil.c */; };
+		D63BA66317293AF900E7EC3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D63BA66217293AF900E7EC3B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +106,7 @@
 		8CD230B6159DA6DC00603D19 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = ZLib/zutil.c; sourceTree = "<group>"; };
 		8CD230B7159DA6DC00603D19 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = ZLib/zutil.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Objective_Zip-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Objective_Zip-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D63BA66217293AF900E7EC3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D63BA66217293AF900E7EC3B /* Default-568h@2x.png */,
 				8C8F2D9210EBCE0300F75833 /* ObjectiveZipIcon.png */,
 				8C8F2D3910EBC94B00F75833 /* Default.png */,
 				2899E5210DE3E06400AC0155 /* Objective_ZipViewController.xib */,
@@ -288,7 +291,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Objective-Zip" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -318,6 +321,7 @@
 				2899E5220DE3E06400AC0155 /* Objective_ZipViewController.xib in Resources */,
 				8C8F2D3A10EBC94B00F75833 /* Default.png in Resources */,
 				8C8F2D9310EBCE0300F75833 /* ObjectiveZipIcon.png in Resources */,
+				D63BA66317293AF900E7EC3B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Objective_Zip_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Objective_Zip-Info.plist";
 				PRODUCT_NAME = "Objective-Zip";
 			};
@@ -384,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Objective_Zip_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Objective_Zip-Info.plist";
 				PRODUCT_NAME = "Objective-Zip";
 			};
@@ -398,6 +404,7 @@
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
@@ -414,6 +421,7 @@
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
