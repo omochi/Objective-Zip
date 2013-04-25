@@ -42,7 +42,90 @@
 		8CD230BB159DA6DC00603D19 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B5159DA6DC00603D19 /* gzwrite.c */; };
 		8CD230BC159DA6DC00603D19 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B6159DA6DC00603D19 /* zutil.c */; };
 		D63BA66317293AF900E7EC3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D63BA66217293AF900E7EC3B /* Default-568h@2x.png */; };
+		D63BA67917293DA900E7EC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		D63BA68417293DCA00E7EC3B /* ZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D353F10E56BD300B63EFA /* ZipFile.m */; };
+		D63BA68517293DCA00E7EC3B /* ZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D356A10E56F4D00B63EFA /* ZipException.m */; };
+		D63BA68617293DCA00E7EC3B /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D357510E5797600B63EFA /* ZipWriteStream.m */; };
+		D63BA68717293DCA00E7EC3B /* FileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C83F49410E7CBCB002FB3CB /* FileInZipInfo.m */; };
+		D63BA68817293DCA00E7EC3B /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE431710E95FA300AC9ED3 /* ZipReadStream.m */; };
+		D63BA68917293DD700E7EC3B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352510E56A9000B63EFA /* ioapi.c */; };
+		D63BA68A17293DD700E7EC3B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352710E56A9000B63EFA /* mztools.c */; };
+		D63BA68B17293DD700E7EC3B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352910E56A9000B63EFA /* unzip.c */; };
+		D63BA68C17293DD700E7EC3B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D352B10E56A9000B63EFA /* zip.c */; };
+		D63BA68D17293DF100E7EC3B /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B1159DA6DC00603D19 /* gzclose.c */; };
+		D63BA68E17293DF100E7EC3B /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B3159DA6DC00603D19 /* gzlib.c */; };
+		D63BA68F17293DF100E7EC3B /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B4159DA6DC00603D19 /* gzread.c */; };
+		D63BA69017293DF100E7EC3B /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B5159DA6DC00603D19 /* gzwrite.c */; };
+		D63BA69117293DF100E7EC3B /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CD230B6159DA6DC00603D19 /* zutil.c */; };
+		D63BA69217293DF100E7EC3B /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350210E56A8200B63EFA /* adler32.c */; };
+		D63BA69317293DF100E7EC3B /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350310E56A8200B63EFA /* compress.c */; };
+		D63BA69417293DF100E7EC3B /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350410E56A8200B63EFA /* crc32.c */; };
+		D63BA69517293DF100E7EC3B /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350610E56A8200B63EFA /* deflate.c */; };
+		D63BA69617293DF100E7EC3B /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350910E56A8200B63EFA /* infback.c */; };
+		D63BA69717293DF100E7EC3B /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350A10E56A8200B63EFA /* inffast.c */; };
+		D63BA69817293DF100E7EC3B /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350D10E56A8200B63EFA /* inflate.c */; };
+		D63BA69917293DF100E7EC3B /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D350F10E56A8200B63EFA /* inftrees.c */; };
+		D63BA69A17293DF100E7EC3B /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D351110E56A8200B63EFA /* trees.c */; };
+		D63BA69B17293DF100E7EC3B /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D351310E56A8200B63EFA /* uncompr.c */; };
+		D63BA69C17293E9500E7EC3B /* ZipFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D353E10E56BD300B63EFA /* ZipFile.h */; };
+		D63BA69D17293E9500E7EC3B /* ZipException.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D356910E56F4D00B63EFA /* ZipException.h */; };
+		D63BA69E17293E9500E7EC3B /* ZipWriteStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D357410E5797600B63EFA /* ZipWriteStream.h */; };
+		D63BA69F17293E9500E7EC3B /* FileInZipInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C83F49310E7CBCB002FB3CB /* FileInZipInfo.h */; };
+		D63BA6A017293E9500E7EC3B /* ZipReadStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CBE431610E95FA300AC9ED3 /* ZipReadStream.h */; };
+		D63BA6A117293EB300E7EC3B /* crypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352410E56A9000B63EFA /* crypt.h */; };
+		D63BA6A217293EB300E7EC3B /* ioapi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352610E56A9000B63EFA /* ioapi.h */; };
+		D63BA6A317293EB300E7EC3B /* mztools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352810E56A9000B63EFA /* mztools.h */; };
+		D63BA6A417293EB300E7EC3B /* unzip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352A10E56A9000B63EFA /* unzip.h */; };
+		D63BA6A517293EB300E7EC3B /* zip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D352C10E56A9000B63EFA /* zip.h */; };
+		D63BA6A617293EB300E7EC3B /* gzguts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CD230B2159DA6DC00603D19 /* gzguts.h */; };
+		D63BA6A717293EB300E7EC3B /* zutil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CD230B7159DA6DC00603D19 /* zutil.h */; };
+		D63BA6A817293EB300E7EC3B /* crc32.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D350510E56A8200B63EFA /* crc32.h */; };
+		D63BA6A917293EB300E7EC3B /* deflate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D350710E56A8200B63EFA /* deflate.h */; };
+		D63BA6AA17293EB300E7EC3B /* inffast.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D350B10E56A8200B63EFA /* inffast.h */; };
+		D63BA6AB17293EB300E7EC3B /* inffixed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D350C10E56A8200B63EFA /* inffixed.h */; };
+		D63BA6AC17293EB300E7EC3B /* inflate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D350E10E56A8200B63EFA /* inflate.h */; };
+		D63BA6AD17293EB300E7EC3B /* inftrees.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D351010E56A8200B63EFA /* inftrees.h */; };
+		D63BA6AE17293EB300E7EC3B /* trees.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D351210E56A8200B63EFA /* trees.h */; };
+		D63BA6AF17293EB300E7EC3B /* zconf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D351410E56A8200B63EFA /* zconf.h */; };
+		D63BA6B017293EB300E7EC3B /* zlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C6D351510E56A8200B63EFA /* zlib.h */; };
+		D63BA6B117293EB300E7EC3B /* ARCHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C9893AF16E5511500E1190A /* ARCHelper.h */; };
+		D63BA6B417293FB400E7EC3B /* Objective-Zip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D63BA6B317293F7600E7EC3B /* Objective-Zip.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D63BA67617293DA900E7EC3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/Objective-Zip";
+			dstSubfolderSpec = 16;
+			files = (
+				D63BA6B417293FB400E7EC3B /* Objective-Zip.h in CopyFiles */,
+				D63BA6A117293EB300E7EC3B /* crypt.h in CopyFiles */,
+				D63BA6A217293EB300E7EC3B /* ioapi.h in CopyFiles */,
+				D63BA6A317293EB300E7EC3B /* mztools.h in CopyFiles */,
+				D63BA6A417293EB300E7EC3B /* unzip.h in CopyFiles */,
+				D63BA6A517293EB300E7EC3B /* zip.h in CopyFiles */,
+				D63BA6A617293EB300E7EC3B /* gzguts.h in CopyFiles */,
+				D63BA6A717293EB300E7EC3B /* zutil.h in CopyFiles */,
+				D63BA6A817293EB300E7EC3B /* crc32.h in CopyFiles */,
+				D63BA6A917293EB300E7EC3B /* deflate.h in CopyFiles */,
+				D63BA6AA17293EB300E7EC3B /* inffast.h in CopyFiles */,
+				D63BA6AB17293EB300E7EC3B /* inffixed.h in CopyFiles */,
+				D63BA6AC17293EB300E7EC3B /* inflate.h in CopyFiles */,
+				D63BA6AD17293EB300E7EC3B /* inftrees.h in CopyFiles */,
+				D63BA6AE17293EB300E7EC3B /* trees.h in CopyFiles */,
+				D63BA6AF17293EB300E7EC3B /* zconf.h in CopyFiles */,
+				D63BA6B017293EB300E7EC3B /* zlib.h in CopyFiles */,
+				D63BA6B117293EB300E7EC3B /* ARCHelper.h in CopyFiles */,
+				D63BA69C17293E9500E7EC3B /* ZipFile.h in CopyFiles */,
+				D63BA69D17293E9500E7EC3B /* ZipException.h in CopyFiles */,
+				D63BA69E17293E9500E7EC3B /* ZipWriteStream.h in CopyFiles */,
+				D63BA69F17293E9500E7EC3B /* FileInZipInfo.h in CopyFiles */,
+				D63BA6A017293E9500E7EC3B /* ZipReadStream.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -107,6 +190,8 @@
 		8CD230B7159DA6DC00603D19 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = ZLib/zutil.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Objective_Zip-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Objective_Zip-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D63BA66217293AF900E7EC3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D63BA67817293DA900E7EC3B /* libObjective-Zip-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjective-Zip-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63BA6B317293F7600E7EC3B /* Objective-Zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Objective-Zip.h"; path = "Objective-Zip/Objective-Zip.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +202,14 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63BA67517293DA900E7EC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63BA67917293DA900E7EC3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* Objective-Zip.app */,
+				D63BA67817293DA900E7EC3B /* libObjective-Zip-static.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +239,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D63BA6B217293F4A00E7EC3B /* Objective-Zip-static */,
 				8C6D353B10E56BA400B63EFA /* Objective-Zip */,
 				8C6D350110E56A4B00B63EFA /* MiniZip */,
 				8C6D350010E56A4500B63EFA /* ZLib */,
@@ -265,6 +360,14 @@
 			path = ARCHelper;
 			sourceTree = "<group>";
 		};
+		D63BA6B217293F4A00E7EC3B /* Objective-Zip-static */ = {
+			isa = PBXGroup;
+			children = (
+				D63BA6B317293F7600E7EC3B /* Objective-Zip.h */,
+			);
+			name = "Objective-Zip-static";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +387,23 @@
 			productName = "Objective-Zip";
 			productReference = 1D6058910D05DD3D006BFB54 /* Objective-Zip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D63BA67717293DA900E7EC3B /* Objective-Zip-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63BA68117293DA900E7EC3B /* Build configuration list for PBXNativeTarget "Objective-Zip-static" */;
+			buildPhases = (
+				D63BA67417293DA900E7EC3B /* Sources */,
+				D63BA67517293DA900E7EC3B /* Frameworks */,
+				D63BA67617293DA900E7EC3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-Zip-static";
+			productName = "Objective-Zip-static";
+			productReference = D63BA67817293DA900E7EC3B /* libObjective-Zip-static.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -308,6 +428,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Objective-Zip */,
+				D63BA67717293DA900E7EC3B /* Objective-Zip-static */,
 			);
 		};
 /* End PBXProject section */
@@ -359,6 +480,37 @@
 				8CD230BA159DA6DC00603D19 /* gzread.c in Sources */,
 				8CD230BB159DA6DC00603D19 /* gzwrite.c in Sources */,
 				8CD230BC159DA6DC00603D19 /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63BA67417293DA900E7EC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63BA68417293DCA00E7EC3B /* ZipFile.m in Sources */,
+				D63BA68517293DCA00E7EC3B /* ZipException.m in Sources */,
+				D63BA68617293DCA00E7EC3B /* ZipWriteStream.m in Sources */,
+				D63BA68717293DCA00E7EC3B /* FileInZipInfo.m in Sources */,
+				D63BA68817293DCA00E7EC3B /* ZipReadStream.m in Sources */,
+				D63BA68917293DD700E7EC3B /* ioapi.c in Sources */,
+				D63BA68A17293DD700E7EC3B /* mztools.c in Sources */,
+				D63BA68B17293DD700E7EC3B /* unzip.c in Sources */,
+				D63BA68C17293DD700E7EC3B /* zip.c in Sources */,
+				D63BA68D17293DF100E7EC3B /* gzclose.c in Sources */,
+				D63BA68E17293DF100E7EC3B /* gzlib.c in Sources */,
+				D63BA68F17293DF100E7EC3B /* gzread.c in Sources */,
+				D63BA69017293DF100E7EC3B /* gzwrite.c in Sources */,
+				D63BA69117293DF100E7EC3B /* zutil.c in Sources */,
+				D63BA69217293DF100E7EC3B /* adler32.c in Sources */,
+				D63BA69317293DF100E7EC3B /* compress.c in Sources */,
+				D63BA69417293DF100E7EC3B /* crc32.c in Sources */,
+				D63BA69517293DF100E7EC3B /* deflate.c in Sources */,
+				D63BA69617293DF100E7EC3B /* infback.c in Sources */,
+				D63BA69717293DF100E7EC3B /* inffast.c in Sources */,
+				D63BA69817293DF100E7EC3B /* inflate.c in Sources */,
+				D63BA69917293DF100E7EC3B /* inftrees.c in Sources */,
+				D63BA69A17293DF100E7EC3B /* trees.c in Sources */,
+				D63BA69B17293DF100E7EC3B /* uncompr.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +581,65 @@
 			};
 			name = Release;
 		};
+		D63BA68217293DA900E7EC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/Objective_Zip_static.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Objective_Zip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D63BA68317293DA900E7EC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/Objective_Zip_static.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Objective_Zip_Prefix.pch;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,6 +660,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D63BA68117293DA900E7EC3B /* Build configuration list for PBXNativeTarget "Objective-Zip-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63BA68217293DA900E7EC3B /* Debug */,
+				D63BA68317293DA900E7EC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
